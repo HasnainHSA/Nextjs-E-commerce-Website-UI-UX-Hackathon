@@ -8,9 +8,11 @@ import { VscGraphLine } from "react-icons/vsc";
 // image component
 import Image from "next/image";
 
-//
+// Images
 import Personimg from "./images/shop-hero.png";
 import SecPersonimg from "./images/asian-woman-man.png";
+
+// Components   
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -29,6 +31,8 @@ export default function Home() {
           <button>SHOP NOW</button>
         </div>
       </div>
+
+      {/* EDITOR’S PICK SECTION */}
 
       <div className="second-section">
         <span>EDITORS PICK</span>

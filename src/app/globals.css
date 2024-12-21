@@ -671,3 +671,71 @@ li .feature-blue{
   width: 30%;
   text-align: center;
 }
+
+/* Mobile Small */ 
+@media (max-width: 480px) { 
+  .home-hero {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./images/shop-hero-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    margin-bottom: 5rem;
+  }
+  
+  .hometext span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    font-size: var(--small-fontsize);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .hometext h1 {
+    width: 100%;
+    text-align: center; 
+    color: var(--white-color);
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  
+  .hometext p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+    font-size: var(--small-fontsize);
+    margin-bottom: 2rem;
+    text-align:center;
+    width: 100%;
+  }
+  
+  .hometext button {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: 1rem 2.5rem;
+    border-radius: 5px;
+    font-size: var(--medium-fontsize);
+    border: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  
+}
+
+
+/* Small Laptop */ 
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+ } 

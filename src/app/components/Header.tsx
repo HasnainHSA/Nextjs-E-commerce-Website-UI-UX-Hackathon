@@ -117,20 +117,20 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="/about"
+                  href="/About"
                   className="hover:text-[#23A6F0] transition-all"
                 >
                   About
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-[#23A6F0] transition-all">
+                <Link href="/Blog" className="hover:text-[#23A6F0] transition-all">
                   Blog
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="/Contact"
                   className="hover:text-[#23A6F0] transition-all"
                 >
                   Contact
